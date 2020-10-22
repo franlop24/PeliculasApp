@@ -51,4 +51,8 @@ export class PeliculasService {
     )
   }
 
+  resetCarteleraPage(){
+    this.carteleraPage = 1;
+  }
+
 }
