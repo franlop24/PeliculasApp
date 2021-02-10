@@ -4,6 +4,6 @@ services:
   web:
     image: nginx
     volumes:
-    - ./appBuild/peliculasApp:/etc/nginx/templates
+    - ./appBuild/peliculasApp:/usr/share/nginx/html
     ports:
     - "8080:80"
